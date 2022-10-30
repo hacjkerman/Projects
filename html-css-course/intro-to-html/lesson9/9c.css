@@ -1,0 +1,11 @@
+.text {
+    font-family: Arial;
+}
+.box {
+    border-width: 1px;
+    width: 300px;
+    border-style: solid;
+    border-color: grey;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
