@@ -1,0 +1,56 @@
+.neko {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+.vertical {
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 10px;
+}   r
+.vertical-button {
+    padding-top: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.vertical-description {
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 100px;
+}
+.name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+.description {
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: grey;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+.description2 {
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: grey;
+    font-size: 12px;
+}
+.follow-button {
+    color: white;
+    background-color: rgb(0, 166, 255);
+    border: none;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    
+}

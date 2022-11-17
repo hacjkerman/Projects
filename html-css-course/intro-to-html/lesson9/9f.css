@@ -1,0 +1,39 @@
+.neko {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+}
+.name {
+    margin-left: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.friends {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.add-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.box {
+    width: 150px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.3);
+}

@@ -1,0 +1,10 @@
+.flexbox {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+}

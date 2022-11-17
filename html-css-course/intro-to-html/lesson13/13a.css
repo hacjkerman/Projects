@@ -1,0 +1,21 @@
+.first-item {
+    display: flex;
+    width: 100px;
+    background-color: pink;
+    justify-content: center;
+}
+
+.item {
+    color: white;
+    background-color: black;
+}
+
+.second-item {
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+}
+
+.container {
+    display: flex;
+}

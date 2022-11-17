@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    border-style: none;
+    border-width: 1px;
+    width: 390px;
+    flex-direction: column;
+    box-shadow: 0 2px 12px rgba(0,0,0, 0.15);
+}
+
+.profile-pic {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 25px;    
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+.left-description {
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.inboxes {
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+
+.title {
+    font-weight: bold;
+    padding-bottom: 4px;
+    font-size: 17px;
+}
+
+.description {
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content {
+    color: grey;
+    font-size: 14px;
+}
+
+.top-title {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    color: grey;
+    font-size: 13px;
+}

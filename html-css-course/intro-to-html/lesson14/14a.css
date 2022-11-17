@@ -1,0 +1,11 @@
+.bottom-right {
+    position: fixed;
+    color: white;
+    background-color: black;
+    bottom: 20px;
+    right: 20px;
+}
+
+body {
+    height: 3000px;
+}

@@ -1,0 +1,60 @@
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-right: 0px;
+}
+
+.container {
+    width: 350px;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Arial;
+}
+
+.middle-section {
+    width: 200px;   
+}
+
+.name {
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.description {
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: grey;
+}
+
+.description2 {
+    font-size: 13px;
+    color: grey;
+}
+
+.follow-button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: white;
+    font-size: 16px;
+    background: rgb(0, 149, 255);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 13px;
+}

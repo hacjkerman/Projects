@@ -1,0 +1,14 @@
+.big-box {
+    background-color: aqua;
+    width: 200px;
+}
+
+.small-box {
+    background-color: pink;
+    width: 75px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    
+}
+
+.first-element {
+    width: 100px;
+    background-color: pink;
+}
+
+.second-element {
+    width: 200px;
+    background-color: aqua;
+}
+
+.item1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.item2 {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+
+.item-box {
+    display: flex;
+    justify-content: space-between;
+}
