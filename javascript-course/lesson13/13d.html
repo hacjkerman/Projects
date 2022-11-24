@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pickApples (fruits) {
+            let applesPicked = 0;
+            let orangesPicked = 0;
+            const filteredArray = fruits.filter (function (item) {
+                if (applesPicked >= 2 && orangesPicked === 1) {
+                    return true;
+                }
+                else if (item === 'apple') {
+                    applesPicked++;
+                    return false;
+                }
+                else if (item === 'orange') {
+                    orangesPicked++;
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            });
+            return filteredArray;
+            
+        }
+    </script>
+</body>
+</html>

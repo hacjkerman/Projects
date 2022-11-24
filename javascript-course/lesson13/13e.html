@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pickLastApples (fruits) {
+            const reversedList = fruits.reverse();
+            let applesPicked = 0;
+            const filteredArray = reversedList.filter (function (item) {
+                if (applesPicked >= 2) {
+                    return true;
+                }
+                else if (item === 'apple') {
+                    applesPicked++;
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            });
+            return filteredArray;
+            
+        }
+    </script>
+</body>
+</html>
