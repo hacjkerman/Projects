@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let total = 0;
+        function createCart (foods) {
+            let foodNames = Object.keys(foods);
+            
+            foodNames.forEach(function (item) {
+                const cartItem = document.createElement('div');
+                
+                const foodPrice = foods[item];
+                cartItem.innerText = item + ' $' + foodPrice;
+
+                const addButton = document.createElement('button');
+                addButton.innerText = 'Add';
+
+                addButton.onclick = function () {
+                    total = total + foodPrice;
+                };
+                cartItem.appendChild(addButton);
+                document.body.appendChild(cartItem);
+            });
+        }
+        console.log(total);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input-value"/>
+    <button onclick="convertToCM()">Convert to cm</button>
+    <button onclick="convertToIn()">Convert to inches</button>
+    <script>
+        const input = document.getElementById('input-value');
+
+        function convertToCM () {
+            let value = input.value;
+            let cm = +value * 2.54;
+
+            let result = document.createElement('div');
+            result.innerText = cm;
+            document.body.appendChild(result);
+        } 
+
+        function convertToIn () {
+            let value = input.value;
+            let cm = +value / 2.54;
+
+            let result = document.createElement('div');
+            result.innerText = cm;
+            document.body.appendChild(result);
+        } 
+    </script>
+</body>
+</html>
