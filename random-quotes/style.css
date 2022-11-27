@@ -1,0 +1,68 @@
+@font-face {
+    src: url(fonts/PlayfairDisplay-BoldItalic.otf);
+    font-family: Playfair Display;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    height: 35vh;
+    width: 33%;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.quote-button {
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+    position: absolute;
+    bottom: -50px;
+    width: 10rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.quote-button:active {
+    margin-bottom: -2px;
+}
+
+.quote {
+    padding: 10px;
+    font-size: 24px;
+    font-family:'Playfair Display';
+    width:95%;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 40px;
+}
+
+body {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 601px) {
+    .quote {
+      font-size: 12px;
+      line-height: 30px;
+      width: 85%;
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .quote {
+      font-size: 10px;
+      width: 83%;
+      line-height: 20px;
+    }
+  }
