@@ -12,21 +12,6 @@ const transporter = nodemailer.createTransport( {
     }
 });
 
-const options = {
-    from: "inspirationalquotegen@gmail.com",
-    to: "andrewwang134@gmail.com",
-    subject: "Help",
-    text: "Please send help"
-}
-
-transporter.sendMail(options, function (err, info) {
-    if(err) {
-        console.log(err)
-        return
-    }
-    console.log("Sent: " + info.response)
-})
-
 module.exports = {
     verifyUserEmail: async function verifyUserEmail(name, userEmail, quote) {
         try {
